@@ -46,6 +46,7 @@ public class Login extends AppCompatActivity {
 
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 //Check if all fields are filled or not.

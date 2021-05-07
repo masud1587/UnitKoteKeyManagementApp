@@ -108,8 +108,8 @@ public class Register extends AppCompatActivity {
                 String date = simpleDateFormat2.format(calendar.getTime());
                 String creationDate = date;
 
-                String adminEmail = "ron@email.com";
-                String adminPassword = "123456";
+                String adminEmail = "idp.delta.a@gmail.com";
+                String adminPassword = "gcrcAE%tf#5DESvhibbyufy4576FjibuyNUGo";
                 fAuth2.signInWithEmailAndPassword(adminEmail,adminPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {

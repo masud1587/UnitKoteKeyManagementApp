@@ -50,6 +50,7 @@ public class Log extends AppCompatActivity {
     int dateCheck;
     int dateCheck2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -36,7 +36,7 @@ public class Alarm extends AppCompatActivity {
         super.onStart();
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("ALARM");
+        DatabaseReference myRef = database.getReference("FLAG");
 
         myRef.setValue("N").addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
